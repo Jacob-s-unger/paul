@@ -1,4 +1,4 @@
-fn build_front_tire(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> FrontTires {
+pub fn build_front_tire(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> FrontTires {
     FrontTires { 
         size: size,
         brand: brand,
@@ -8,9 +8,8 @@ fn build_front_tire(size: String, brand: String, model: String, mileage_installe
      }
 }
 
-
 //Not currently used functions but will be used when user input is implemented.
-fn build_rear_tire(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> RearTires {
+pub fn build_rear_tire(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> RearTires {
     RearTires { 
             size: size,
             brand: brand,
@@ -20,7 +19,7 @@ fn build_rear_tire(size: String, brand: String, model: String, mileage_installed
     }
 }
 
-
+//These require the "pub" word infront of both the structure and the attribute to make sure main can access them.
 pub struct FrontTires {
     pub size: String,
     pub brand: String,
