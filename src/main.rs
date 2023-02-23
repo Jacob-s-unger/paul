@@ -1,9 +1,25 @@
-use crate::wheels::FrontTires;
-use crate::wheels::RearTires;
-use crate::wheels::build_front_tire;
+
+use crate::tires::FrontTires;
+use crate::tires::RearTires;
+use crate::tires::build_front_tire;
+use crate::tires::build_rear_tire;
+
+
+use crate::wheels::FrontWheels;
+use crate::wheels::RearWheels;
+
+use crate::engine::Block;
+
+use crate::performance::PerformanceValues;
+
+
+
 use std::io; //Input/Output module
 
+mod tires;
 mod wheels;
+mod engine;
+mod performance;
 
 
 fn main() { 

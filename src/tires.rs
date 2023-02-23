@@ -1,5 +1,5 @@
-pub fn build_front_wheel(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> FrontWheels {
-    FrontWheels { 
+pub fn build_front_tire(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> FrontTires {
+    FrontTires { 
         size: size,
         brand: brand,
         model: model,
@@ -9,8 +9,8 @@ pub fn build_front_wheel(size: String, brand: String, model: String, mileage_ins
 }
 
 //Not currently used functions but will be used when user input is implemented.
-pub fn build_rear_wheel(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> RearWheels {
-    RearWheels { 
+pub fn build_rear_tire(size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> RearTires {
+    RearTires { 
             size: size,
             brand: brand,
             model: model,
@@ -19,7 +19,8 @@ pub fn build_rear_wheel(size: String, brand: String, model: String, mileage_inst
     }
 }
 
-pub struct FrontWheels {
+//These require the "pub" word infront of both the structure and the attribute to make sure main can access them.
+pub struct FrontTires {
     pub size: String,
     pub brand: String,
     pub model: String,
@@ -27,7 +28,7 @@ pub struct FrontWheels {
     pub notes: String,
 }
 
-pub struct RearWheels {
+pub struct RearTires {
     pub size: String,
     pub brand: String,
     pub model: String,
