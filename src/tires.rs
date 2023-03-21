@@ -1,6 +1,6 @@
 pub fn build_front_tire(set: bool, size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> FrontTires {
     FrontTires { 
-        set: set,
+        set: set, //true of false based on if the data has been set before. If created, set to true. Once deleted set to false.
         size: size,
         brand: brand,
         model: model,
@@ -12,7 +12,7 @@ pub fn build_front_tire(set: bool, size: String, brand: String, model: String, m
 //Not currently used functions but will be used when user input is implemented.
 pub fn build_rear_tire(set: bool, size: String, brand: String, model: String, mileage_installed: usize, notes: String) -> RearTires {
     RearTires { 
-            set: set,
+            set: set, //true of false based on if the data has been set before. If created, set to true. Once deleted set to false.
             size: size,
             brand: brand,
             model: model,
