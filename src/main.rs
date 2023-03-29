@@ -81,7 +81,6 @@ fn main() {
         println!("You wrote {}", input_string);
     }
     println!("See you later!"); 
-    println!("Nerd!");
 
 }
 
