@@ -46,4 +46,4 @@ fn modify_my_ride(mut my_ride: myRide, new_make: String, new_model: String, new_
 
 println!("My new ride is a {} {} {} {}.", my_ride.year, my_ride.make, my_ride.model, my_ride.trim);
 
-// This code will modify the myRide instance's values to represent a 2022 Toyota Corolla SE and print out "My new ride is a 2022 Toyota Corolla SE.".
+// This code will modify the myRide instance's values to represent a 2022 Toyota Corolla SE and print out "My new ride is a 2022 Toyota Corolla SE."

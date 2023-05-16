@@ -53,24 +53,8 @@ fn main() {
     // let b1 = std::io::stdin().read_line(&mut choice).unwrap();
 
 
-    // while
-    //     if b1 == 1 {
-    //         println!("Please input front wheel data...");
-    //         // let mut size = String::new();
-    //         // let size_u = std::io::stdin().read_line(&mut size).unwrap();
-    //         // let mut brand = String::new();
-    //         // let brand_u = std::io::stdin().read_line(&mut brand).unwrap();
-    //         // let mut model = String::new();
-    //         // let model_u = std::io::stdin().read_line(&mut model).unwrap();
-    //         // let mut mileage_installed = String::new();
-    //         // let mileage_u = std::io::stdin().read_line(&mut mileage_installed).unwrap();
-    //         // let mut notes = String::new();
-    //         // let notes_u = std::io::stdin().read_line(&mut notes).unwrap();
-    //         // build_front_tire(size_u.to_string(),brand_u.to_string(),model_u.to_string(),mileage_u,notes_u.to_string());
-    //     } else {
-    //         println!()
-    //     }
 
+// THis is a test function that loops.... need to replace this with some prompt
 
     println!("Please type something, or x to escape:");
     let mut input_string = String::new();
