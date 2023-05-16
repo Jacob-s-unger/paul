@@ -1,31 +1,25 @@
 #![allow(warnings)]
 
+mod tires;
 use crate::tires::FrontTires;
 use crate::tires::RearTires;
-use crate::tires::build_front_tire;
-use crate::tires::build_rear_tire;
+
+// use crate::wheels::FrontWheels;
+// use crate::wheels::RearWheels;
+
+// use crate::engine::Block;
+
+// use crate::performance::PerformanceValues;
 
 
-use crate::wheels::FrontWheels;
-use crate::wheels::RearWheels;
-
-use crate::engine::Block;
-
-use crate::performance::PerformanceValues;
-
-
-use crate::myride::myRide; //Flagged for 0 usage in this file.... Seeing my garage does have implementations and is not flagged. THis can be resolved by actually calling a method from myRide here in main I think. In the final proposed structure, these use crates will not be necessary here I think because it will all be abstrated to their respective files, just calle don by main.
+// use crate::myride::myRide; //Flagged for 0 usage in this file.... Seeing my garage does have implementations and is not flagged. THis can be resolved by actually calling a method from myRide here in main I think. In the final proposed structure, these use crates will not be necessary here I think because it will all be abstrated to their respective files, just calle don by main.
 mod myride;
 
-use crate::garage::myGarage;
+// use crate::garage::myGarage;
 mod garage;
-
-
-
 
 use std::io; //Input/Output module
 
-mod tires;
 mod wheels;
 mod engine;
 mod performance;
