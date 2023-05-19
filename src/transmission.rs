@@ -6,4 +6,4 @@ pub struct Trans {
     pub fluid: String, //This will prlly get moved to fluids section.
 }
 
-//Implement the methods here eventually to report on self stuct I think
+//Implement the methods here eventually to report on self stuct I think...
